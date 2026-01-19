@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "6315c7a4-a1c5-4330-ba42-1c8dc3a57a7f",
+		"name": "API-TEST-FORMATIVE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43821424"
+	},
+	"item": [
+		{
+			"name": "https://pokeapi.co/api/v2/pokemon/pikachu",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/pikachu",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"pikachu"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
